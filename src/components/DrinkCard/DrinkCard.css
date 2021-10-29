@@ -1,0 +1,28 @@
+.drinksGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .drinksGrid {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width: 760px) {
+    .drinksGrid {
+        grid-template-columns: auto auto ;
+    }
+}
+@media screen and (max-width: 480px) {
+    .drinksGrid {
+        grid-template-columns: auto;
+    }
+
+}
+.ingredientGrid {
+    padding-top: 20px;
+}
